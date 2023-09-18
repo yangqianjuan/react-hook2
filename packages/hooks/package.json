@@ -2,7 +2,10 @@
   "name": "hooks",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./lib/index.js",
+  "module": "./es/index.js",
+  "types": "./lib/index.d.ts",
+  "unpkg": "dist/reactHooks.js",
   "scripts": {
     "build": "gulp && webpack-cli"
   },
