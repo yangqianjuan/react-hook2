@@ -1,0 +1,20 @@
+{
+  "vendors~dumi_demos~packages__hooks__src__useToggle__index.md~wrappers.js": "/vendors~dumi_demos~packages__hooks__src__useToggle__index.md~wrappers.9ba19e36.async.js",
+  "vendors~dumi_demos~packages__hooks__src__useToggle__index.md.css": "/vendors~dumi_demos~packages__hooks__src__useToggle__index.md.05c46896.chunk.css",
+  "vendors~dumi_demos~packages__hooks__src__useToggle__index.md.js": "/vendors~dumi_demos~packages__hooks__src__useToggle__index.md.9e64bd5c.async.js",
+  "demos_no_comp.js": "/demos_no_comp.e5bfea3d.async.js",
+  "dumi_demos.js": "/dumi_demos.c340d8b2.async.js",
+  "packages__hooks__src__useToggle__index.md.js": "/packages__hooks__src__useToggle__index.md.7672a588.async.js",
+  "umi.js": "/umi.d7f060f8.js",
+  "vendors~wrappers.css": "/vendors~wrappers.1a16d555.chunk.css",
+  "vendors~wrappers.js": "/vendors~wrappers.bb054c63.async.js",
+  "wrappers.js": "/wrappers.568a3158.async.js",
+  "/~demos/usetoggle-demo1/index.html": "//~demos/usetoggle-demo1/index.html",
+  "/~demos/usetoggle-demo2/index.html": "//~demos/usetoggle-demo2/index.html",
+  "404.html": "/404.html",
+  "_demos/:uuid/index.html": "/_demos/:uuid/index.html",
+  "hooks/index.html": "/hooks/index.html",
+  "hooks/use-toggle/index.html": "/hooks/use-toggle/index.html",
+  "index.html": "/index.html",
+  "~demos/:uuid/index.html": "/~demos/:uuid/index.html"
+}
