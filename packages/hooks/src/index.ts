@@ -1,2 +1,3 @@
-console.log(123);
-const num = 123;
+import useToggle from './useToggle';
+
+export { useToggle };
