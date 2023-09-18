@@ -10,10 +10,10 @@
     "baseUrl": ".", //当前根路径
     "paths": {
       "@/*": ["src/*"],
-      "encodeHooks": ["./packages/hooks/src/index.ts"],
-      "encode-hooks": ["./packages/hooks/src/index.ts"],
-      "encodeHooks/lib/*": ["./packages/hooks/src/*"],
-      "encode-hooks/lib/*": ["./packages/hooks/src/*"]
+      "reactHooks": ["./packages/hooks/src/index.ts"],
+      "react-hooks": ["./packages/hooks/src/index.ts"],
+      "reactHooks/lib/*": ["./packages/hooks/src/*"],
+      "react-hooks/lib/*": ["./packages/hooks/src/*"]
     },
     "allowSyntheticDefaultImports": true,
     "skipLibCheck": true, //过滤.d.ts的文件

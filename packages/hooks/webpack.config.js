@@ -4,8 +4,8 @@ const path = require('path');
 module.exports = merge(common, {
   entry: './es/index.js',
   output: {
-    filename: 'demoHooks.js',
-    library: 'demoHook',
+    filename: 'reactHooks.js',
+    library: 'reactHook',
     path: path.resolve(__dirname, './dist'),
   },
 });
