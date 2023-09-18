@@ -12,13 +12,14 @@ export interface Actions {
 
 function useToggle<T = boolean>(): [T, Actions];
 
+function useToggle<T = boolean>(defaultValue: T): [T, Actions];
+
 function useToggle<D, R>(defaultValue: D, reverseValue: R): [D | R, Actions];
 
 function useToggle<D, R>(defaultValue: D = false as D, reverseValue?: R) {
   const [state, setState] = useState<D | R>(defaultValue);
   const actions = useMemo(() => {
-    const reverseValueOrigin =
-      reverseValue === undefined ? !defaultValue : reverseValue;
+    const reverseValueOrigin = reverseValue === undefined ? !defaultValue : reverseValue;
     const setLeft = () => {
       setState(defaultValue);
     };
