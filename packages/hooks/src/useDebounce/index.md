@@ -1,6 +1,6 @@
 ---
 nav:
-  path: /hook
+  path: /hooks
 ---
 # useDebounce
 
