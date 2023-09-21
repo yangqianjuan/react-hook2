@@ -35,5 +35,8 @@
     "react-drag-listview": "^0.1.6",
     "react-json-view": "^1.21.3"
   },
+  "engines": {
+    "node": ">=8.0.0"
+  },
   "license": "MIT"
 }

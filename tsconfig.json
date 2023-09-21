@@ -1,13 +1,14 @@
 {
   "root": true,
   "compilerOptions": {
-    "target": "ES5", //构建产物是es5的
-    "moduleResolution": "node", //文件类型是node
+    "target": "ES5",
+    "moduleResolution": "node",
+    "lib": ["ESNext", "dom"],
     "jsx": "react",
-    "esModuleInterop": true, //结合allowSyntheticDefaultImports一起使用
-    "downlevelIteration": true, //可迭代枚举只能将对应代码降级到es5
+    "esModuleInterop": true,
+    "downlevelIteration": true,
     "sourceMap": true,
-    "baseUrl": ".", //当前根路径
+    "baseUrl": ".",
     "paths": {
       "@/*": ["src/*"],
       "reactHooks": ["./packages/hooks/src/index.ts"],
@@ -16,7 +17,7 @@
       "react-hooks/lib/*": ["./packages/hooks/src/*"]
     },
     "allowSyntheticDefaultImports": true,
-    "skipLibCheck": true, //过滤.d.ts的文件
+    "skipLibCheck": true,
     "strictNullChecks": true,
     "importHelpers": true
   },
